@@ -1,0 +1,126 @@
+# ============================================================
+# esef's dotfiles — packages.txt
+# Acer Nitro AN515-51 | Intel i7-7700HQ + GTX 1050 Mobile
+# Arch Linux | Hyprland | Caelestia
+# ============================================================
+
+# ── Core System ─────────────────────────────────────────────
+base
+base-devel
+linux
+linux-headers
+linux-firmware
+sudo
+git
+
+# ── Display Manager ─────────────────────────────────────────
+ly
+
+# ── Wayland / Compositor ────────────────────────────────────
+hyprland
+xdg-desktop-portal-hyprland
+xdg-utils
+qt5-wayland
+qt6-wayland
+uwsm
+
+# ── Hyprland Ecosystem ──────────────────────────────────────
+hyprlock
+hypridle
+hyprpicker
+hyprshutdown
+hyprsunset
+hyprsysteminfo
+
+# ── Caelestia Shell ─────────────────────────────────────────
+# (installs quickshell and all caelestia deps)
+caelestia-meta
+quickshell-git
+
+# ── GPU Drivers — Intel HD 630 ──────────────────────────────
+intel-media-driver
+libva-intel-driver
+vulkan-intel
+
+# ── GPU Drivers — NVIDIA GTX 1050 Mobile ───────────────────
+nvidia-580xx-dkms
+lib32-nvidia-580xx-utils
+envycontrol
+
+# ── Terminal ────────────────────────────────────────────────
+kitty
+
+# ── Shell ───────────────────────────────────────────────────
+zsh
+starship
+zoxide
+eza
+bat
+fzf
+
+# ── App Launcher ────────────────────────────────────────────
+fuzzel
+rofi
+
+# ── System Monitor / Fetch ──────────────────────────────────
+btop
+fastfetch
+htop
+
+# ── Screenshot / Screen Recording ───────────────────────────
+grim
+slurp
+grimblast-git
+
+# ── Clipboard ───────────────────────────────────────────────
+cliphist
+wl-clipboard
+xclip
+
+# ── Audio ───────────────────────────────────────────────────
+pipewire-pulse
+pavucontrol
+alsa-utils
+playerctl
+
+# ── Networking ──────────────────────────────────────────────
+networkmanager
+network-manager-applet
+
+# ── Bluetooth ───────────────────────────────────────────────
+blueman
+
+# ── Polkit / Auth ───────────────────────────────────────────
+polkit-gnome
+gnome-keyring
+
+# ── Theming ─────────────────────────────────────────────────
+matugen
+nwg-look
+qt6ct
+gnome-themes-extra
+
+# ── Fonts ───────────────────────────────────────────────────
+ttf-jetbrains-mono-nerd
+ttf-firacode-nerd
+otf-font-awesome
+
+# ── File Manager ────────────────────────────────────────────
+dolphin
+
+# ── Utilities ───────────────────────────────────────────────
+jq
+unzip
+zip
+wget
+rsync
+inotify-tools
+udiskie
+gvfs
+gvfs-mtp
+tumbler
+flatpak
+pacman-contrib
+
+# ── AUR Helper ──────────────────────────────────────────────
+paru

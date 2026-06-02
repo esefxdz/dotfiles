@@ -1,0 +1,4 @@
+.zsh_history
+*.bak
+*.bak.*
+.config/caelestia/
